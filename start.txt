@@ -1,0 +1,16 @@
+What do you do first? And after that? Write your steps. Four to six lines, and guess if you have to.
+ans :
+1. man command, read about it.
+2. try to execute it by myself.
+3. learn basics of it first.
+4. then learn more about it according to need.
+
+
+correct ans:
+1 What is this for Read the docs. One sentence, your words.
+2 Find the shape What does a command look like? Copy the pattern.
+3 Run the smallest thing that works.Not the impressive thing. The smallest.
+4 Change exactly one thing Predict, change, run, explain the gap.
+5 Break it on purpose Find out what it says when you’re wrong
+
+conclusion:core idea matches i.e. to start small .😊
