@@ -18,3 +18,8 @@ video options:
 -vf <filter_graph>  alias for -filter:v (apply filters to video streams)
 -b <bitrate>        video bitrate (please use -b:v)
 
+step 3
+ffmpeg -i video.mp4 -frames:v 1 output.jpg
+
+step 4
+to creat GIf
