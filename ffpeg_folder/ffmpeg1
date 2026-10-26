@@ -1,0 +1,40 @@
+step1
+
+what does this tool do?
+ANS :
+converts an input data(video/audio) to its compressed form.
+
+step2
+
+ffmpeg [global_options] {[input_file_options] -i input_url} ... {[output_file_options] output_url} ...
+input part:{[input_file_options] -i input_url}
+output part:{[output_file_options] output_url}
+
+video options:
+-r[:<stream_spec>] <rate>  override input framerate/convert to given output framerate (Hz value, fraction or abbreviation)
+-aspect[:<stream_spec>] <aspect>  set aspect ratio (4:3, 16:9 or 1.3333, 1.7777)
+-vn                 disable video
+-vcodec <codec>     alias for -c:v (select encoder/decoder for video streams)
+-vf <filter_graph>  alias for -filter:v (apply filters to video streams)
+-b <bitrate>        video bitrate (please use -b:v)
+
+step 3
+ffmpeg -i video.mp4 -frames:v 1 output.jpg
+
+step 4
+to creat GIf
+
+step5
+breaking it down
+ffmpeg -i -t 1 video.mp4 output.gif           
+Error opening input: No such file or directory
+Error opening input file input.mp4.
+
+step6 
+making it shorter:
+
+Version                      File size           What changed
+Single frame (jpg)           46KB                
+First GIF                    11MB                fps=10
+Shortened                    6.6MB               fps=5
+Scaled and fps-limited       
