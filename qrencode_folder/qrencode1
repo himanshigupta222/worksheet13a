@@ -1,0 +1,13 @@
+Step 1. What is this for?
+to generate QR code for our work
+
+Step 2. Find the shape
+qrencode [-o FILENAME] [OPTION]...  [STRING]
+
+Step 3. Smallest thing that works. 
+created QR.jpg
+
+Step 4. Change one thing.
+make with github repo url.
+made QR_Git.jpg
+
